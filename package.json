@@ -1,0 +1,21 @@
+{
+  "name": "denzbot-sairidev",
+  "version": "2.0.0",
+  "description": "DENZ BOT with SairiDev Baileys and SnowKit lyric player",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@sairidev/baileys-new": "^0.3.21",
+    "@luanxdd/snowkit": "3.2.0", 
+    "yt-search": "^2.11.1",
+    "axios": "^1.7.9",
+    "ytmusic-api": "^5.1.0",
+    "dotenv": "^16.6.1",
+    "pino": "^9.10.0", 
+    "jimp": "^1.6.1",
+    "webp-wasm": "^1.0.6", 
+    "node-webpmux": "^3.2.1"
+  }
+}
